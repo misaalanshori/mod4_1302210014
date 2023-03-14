@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            for (int i = 0; i < 14; i++)
+            {
+                Console.WriteLine("Kode Buah: " + (KodeBuah.Buah)i + " -> " + KodeBuah.getKodeBuah((KodeBuah.Buah)i) );
+            }
         }
     }
 }
